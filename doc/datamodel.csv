@@ -1,0 +1,6 @@
+collect_time,stationId,deviceId,indicatorCode,data
+2016/10/22 01:01,10001,21,Shallow_NH3_Conc,20
+2016/10/22 01:01,10001,21,Shallow_NO2_Conc,30
+2016/10/22 02:02,10001,20,Chlorophyll,2
+2016/10/22 02:02,10001,20,Conductivity,15
+2016/10/22 02:02,10001,20,BGA,60

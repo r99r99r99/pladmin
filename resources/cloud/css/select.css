@@ -1,0 +1,95 @@
+/***** 閺夊牊鎸搁崣鍡楊浖閸☆厾绀勯柡鍐Ь缁旂喎顩奸崱妯轰壕闁稿绮庢慨鎼佸箑娓氬﹦绀� *****/
+.uew-select .uew-select-value{height:32px;padding:0 5px; margin-top:0px; margin-bottom:12px;line-height:32px;font-family:Tahoma,'鐎甸偊鍠涢拏瀣⒖閸涘鎷�','閻庣懓顑勭紞锟�;*font-family:'鐎甸偊鍠涢拏瀣⒖閸涘鎷�','閻庣懓顑勭紞锟�;color:#000;resize:none;border-width:1px;border-style:solid;border-color:#a7b5bc #ced9df #ced9df #a7b5bc;}
+.uew-border-flag,.uew-border-flag,textarea.uew-border-flag,.uew-select .uew-select-value.uew-border-flag{border-width:1px;border-style:solid;border-color:#bababa #e9e9e9 #e9e9e9 #bababa;}
+/***** 濞戞挸顑嗘刊鍝勵浖閿燂拷****/
+.uew-select{position:relative;}
+.uew-select .uew-select-value{z-index:1;position:relative;padding-right:20px;background:#fff;font-size:12px; text-indent:5px;background:url(../images/inputbg.gif) repeat-x;_background:none;_border:none;}
+.uew-select-value em{font-style:normal;}
+.uew-select .uew-icon{position:absolute;right:5px;top:10px;}
+.uew-select select{z-index:2;position:absolute;top:3px;_top:6px;cursor:pointer; height:28px;}
+/***** 闁告ê顭峰▍搴ㄦ嚂濮樺崬濡介柧蹇旀皑閸ゅ骸顩奸敓锟�****/
+a:focus,input[type=checkbox]:focus,input[type=radio]:focus,button:focus,select{outline:none;}
+select{filter:alpha(opacity=0);}
+option{overflow:auto;}
+
+/*----------------------------------*
+ * 	缂備礁瀚▎銏ゅ礂椤掑倹鏆忛柛銉у亾閻栵絾鎯旈敓锟�       				*
+ *----------------------------------*/
+.uew-icon,.ue-state-default .uew-icon{display:inline-block;width:16px;height:16px;background-image:url(../../images/form/uew_icon.png);}
+.ue-state-hover .uew-icon{background-image:url(../../images/form/uew_icon_hover.png);}
+.uew-icon-triangle-1-s{background-position:-80px 0;}
+
+.vocation,.usercity{float:left;}
+.cityleft{float:left; padding-right:10px;_padding-right:15px;}
+.cityright{float:left;}
+
+.gridStyle {
+    /* border: 1px solid rgb(212,212,212); */
+    width: 96.5%; 
+    height: 700px;
+    margin-left:30px;
+}
+
+.gridStylerole {
+    /* border: 1px solid rgb(212,212,212); */
+    width: 90%; 
+    height: 700px;
+}
+
+.gridStyle2 {
+    /* border: 1px solid rgb(212,212,212); */
+    width: 100%; 
+    height: 300px;
+    margin-left:0px;
+}
+.gridStyle3 {
+    /* border: 1px solid rgb(212,212,212); */
+    width: 75%; 
+    height: 300px;
+    margin: auto;
+}
+.gridStyle1Line {
+    /* border: 1px solid rgb(212,212,212); */
+    width: 100%; 
+    height: 63px;
+    margin-left:0px;
+}
+.gridStyle4main {
+    /* border: 1px solid rgb(212,212,212); */
+    width: 1480px; 
+    margin-left:30px;
+}
+
+/*seachform*/
+.seachform{ height:42px;margin-top:10px;margin-left:-10px;}
+.seachform li{float:left; margin-right:15px;}
+.seachform li label{padding-right:10px; float:left; line-height:32px;}
+.scinput{width:100%; height:32px; line-height:32px; 
+         border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; 
+         border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; 
+         text-indent:10px;}
+.timeput{width:140px; height:32px; line-height:32px; 
+         border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; 
+         border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; 
+         text-indent:10px;}
+.scbtn{width:85px;height:35px; background:url(../img/form/btnbg.png) no-repeat center; font-size:14px;font-weight:bold;color:#fff; cursor:pointer;border-radius:3px; behavior:url(js/pie.htc);}
+
+/*娣诲姞鏂囦欢涓婁紶鐨勬牱寮�*/
+.a-upload {
+  
+}
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
