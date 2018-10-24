@@ -29,10 +29,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link href="<%=path %>/shenhai/css/map/openmap.css" rel="stylesheet"> 
 	<link href="<%=path %>/shenhai/css/map/media.css" rel="stylesheet"> 
 	
-	<link rel="stylesheet" href="${ctx}/resources/openlayersv3.20.1/css/ol.css" type="text/css">
-	<script src="${ctx}/resources/openlayersv3.20.1/build/ol.js" type="text/javascript"></script>
-	<script src="${ctx}/resources/highcharts-ng/highcharts-ng.js" type="text/javascript"></script>
-	<script src="${ctx}/resources/highcharts-ng/highstock.src.js"></script>
+	<link rel="stylesheet" href="${ctx }/shenhai/resources/openlayersv3.20.1/css/ol.css" type="text/css">
+	<script src="${ctx }/shenhai/resources/openlayersv3.20.1/build/ol.js" type="text/javascript"></script>
+	<script src="${ctx }/shenhai/resources/highcharts-ng/highcharts-ng.js" type="text/javascript"></script>
+	<script src="${ctx }/shenhai/resources/highcharts-ng/highstock.src.js"></script>
 	
 		<div id="main-content">
 			<div class="container">

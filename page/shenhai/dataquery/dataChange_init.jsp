@@ -16,8 +16,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </style>
 </head>
 <body ng-app="myApp" ng-controller="customersCtrl" >
-	<script src="${ctx}/resources/common/js/common.js" type="text/javascript"></script>
-	<script src="${ctx }/resources/My97DatePicker/WdatePicker.js"></script>
+	<script src="${ctx }/shenhai/resources/common/js/common.js" type="text/javascript"></script>
+	<script src="${ctx }/shenhai/resources/My97DatePicker/WdatePicker.js"></script>
 
 	<%@ include file="../common/header.jsp" %>
 	<!-- PAGE -->

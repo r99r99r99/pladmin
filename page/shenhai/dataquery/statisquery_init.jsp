@@ -42,14 +42,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </style>
 </head>
 <body ng-app="myApp" ng-controller="customersCtrl" >
-	<script src="${ctx}/resources/common/js/common.js" type="text/javascript"></script>
-	<script src="${ctx }/resources/My97DatePicker/WdatePicker.js"></script>
+	<script src="${ctx }/shenhai/resources/common/js/common.js" type="text/javascript"></script>
+	<script src="${ctx }/shenhai/resources/My97DatePicker/WdatePicker.js"></script>
 
 	<%@ include file="../common/header.jsp" %>
-		<script src="${ctx }/resources/My97DatePicker/WdatePicker.js"></script>
-		<script src="${ctx}/resources/highcharts-ng/highcharts-ng.js" type="text/javascript"></script>
-		<script src="${ctx}/resources/highcharts-ng/highstock.src.js"></script>
-		<script src="${ctx}/resources/highcharts-ng/exporting.js"></script>
+		<script src="${ctx }/shenhai/resources/My97DatePicker/WdatePicker.js"></script>
+		<script src="${ctx }/shenhai/resources/highcharts-ng/highcharts-ng.js" type="text/javascript"></script>
+		<script src="${ctx }/shenhai/resources/highcharts-ng/highstock.src.js"></script>
+		<script src="${ctx }/shenhai/resources/highcharts-ng/exporting.js"></script>
 	<!-- PAGE -->
 	<section id="page">
 	<%@ include file="../common/left.jsp" %>

@@ -6,73 +6,73 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!-- STYLESHEETS --><!--[if lt IE 9]><script src="${ctx}/resources/cloud/js/flot/excanvas.min.js"></script><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
-	<link rel="stylesheet" type="text/css" href="${ctx}/resources/cloud/css/cloud-admin.css" >
-	<link rel="stylesheet" type="text/css" href="${ctx}/resources/cloud/css/select.css" >
-	<link rel="stylesheet" type="text/css"  href="${ctx}/resources/cloud/css/themes/default.css" id="skin-switcher" >
-	<link rel="stylesheet" type="text/css"  href="${ctx}/resources/cloud/css/responsive.css" >
+	<!-- STYLESHEETS --><!--[if lt IE 9]><script src="${ctx }/shenhai/resources/cloud/js/flot/excanvas.min.js"></script><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="${ctx }/shenhai/resources/cloud/css/cloud-admin.css" >
+	<link rel="stylesheet" type="text/css" href="${ctx }/shenhai/resources/cloud/css/select.css" >
+	<link rel="stylesheet" type="text/css"  href="${ctx }/shenhai/resources/cloud/css/themes/default.css" id="skin-switcher" >
+	<link rel="stylesheet" type="text/css"  href="${ctx }/shenhai/resources/cloud/css/responsive.css" >
 	
-	<link href="${ctx}/resources/cloud/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="${ctx }/shenhai/resources/cloud/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<!-- DATE RANGE PICKER -->
-	<link rel="stylesheet" type="text/css" href="${ctx}/resources/cloud/js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+	<link rel="stylesheet" type="text/css" href="${ctx }/shenhai/resources/cloud/js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
 	<!-- DROPZONE -->
-	<link rel="stylesheet" type="text/css" href="${ctx}/resources/cloud/js/dropzone/dropzone.min.css" />
+	<link rel="stylesheet" type="text/css" href="${ctx }/shenhai/resources/cloud/js/dropzone/dropzone.min.css" />
 	
 	
 	<!-- JQUERY -->
-	<script src="${ctx}/resources/cloud/js/jquery/jquery-2.0.3.min.js"></script>
+	<script src="${ctx }/shenhai/resources/cloud/js/jquery/jquery-2.0.3.min.js"></script>
 	<!-- JQUERY UI-->
-	<script src="${ctx}/resources/cloud/js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="${ctx }/shenhai/resources/cloud/js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
 	<!-- BOOTSTRAP -->
-	<script src="${ctx}/resources/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<%-- 	<script src="${ctx}/resources/cloud/bootstrap-dist/js/bootstrap.min.js"></script> --%>
+	<script src="${ctx }/shenhai/resources/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<%-- 	<script src="${ctx }/shenhai/resources/cloud/bootstrap-dist/js/bootstrap.min.js"></script> --%>
 	
 		
 	<!-- DATE RANGE PICKER -->
-	<script src="${ctx}/resources/cloud/js/bootstrap-daterangepicker/moment.min.js"></script>
+	<script src="${ctx }/shenhai/resources/cloud/js/bootstrap-daterangepicker/moment.min.js"></script>
 	
-	<script src="${ctx}/resources/cloud/js/bootstrap-daterangepicker/daterangepicker.min.js"></script>
+	<script src="${ctx }/shenhai/resources/cloud/js/bootstrap-daterangepicker/daterangepicker.min.js"></script>
 	<!-- SLIMSCROLL -->
-	<script type="text/javascript" src="${ctx}/resources/cloud/js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min.js"></script>
-	<script type="text/javascript" src="${ctx}/resources/cloud/js/jQuery-slimScroll-1.3.0/slimScrollHorizontal.min.js"></script>
+	<script type="text/javascript" src="${ctx }/shenhai/resources/cloud/js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="${ctx }/shenhai/resources/cloud/js/jQuery-slimScroll-1.3.0/slimScrollHorizontal.min.js"></script>
 	 <!-- DROPZONE -->
-	<script type="text/javascript" src="${ctx}/resources/cloud/js/dropzone/dropzone.min.js"></script>
+	<script type="text/javascript" src="${ctx }/shenhai/resources/cloud/js/dropzone/dropzone.min.js"></script>
 	<!-- COOKIE -->
-	<script type="text/javascript" src="${ctx}/resources/cloud/js/jQuery-Cookie/jquery.cookie.min.js"></script>
+	<script type="text/javascript" src="${ctx }/shenhai/resources/cloud/js/jQuery-Cookie/jquery.cookie.min.js"></script>
 	
 	<!-- angularjs -->
-	<script src="${ctx }/resources/angular-1.5.0/angular.js"></script>
-	<script src="${ctx }/resources/angular-1.5.0/angular-animate.js"></script>
-	<script src="${ctx }/resources/angular-1.5.0/angular-touch.js"></script>
+	<script src="${ctx }/shenhai/resources/angular-1.5.0/angular.js"></script>
+	<script src="${ctx }/shenhai/resources/angular-1.5.0/angular-animate.js"></script>
+	<script src="${ctx }/shenhai/resources/angular-1.5.0/angular-touch.js"></script>
 	<!-- ngdialog -->
-	<script src="${ctx }/resources/ngdialog/ngDialog.js"></script>
-	<link href="${ctx }/resources/ngdialog/ngDialog.css" rel="stylesheet" type="text/css" />
-	<link href="${ctx }/resources/ngdialog/ngDialog-theme-default.css" rel="stylesheet" type="text/css" />
+	<script src="${ctx }/shenhai/resources/ngdialog/ngDialog.js"></script>
+	<link href="${ctx }/shenhai/resources/ngdialog/ngDialog.css" rel="stylesheet" type="text/css" />
+	<link href="${ctx }/shenhai/resources/ngdialog/ngDialog-theme-default.css" rel="stylesheet" type="text/css" />
 	
 	
-	<script src="${ctx }/resources/ui-bootstrap-tpls/ui-bootstrap-tpls.js"></script>
-	<%-- <script src="${ctx }/resources/ng-grid/ng-grid.debug.js"></script>
-	<script src="${ctx }/resources/ng-grid/ng-grid-layout.js"></script> --%>
-	<script src="${ctx }/resources/ui-grid/ui-grid.js"></script>
-	<script src="${ctx }/resources/ui-grid/csv.js"></script>
-	<script src="${ctx }/resources/ui-grid/pdfmake.js"></script>
-	<script src="${ctx }/resources/ui-grid/vfs_fonts.js"></script>
-	<link href="${ctx }/resources/ui-grid/ui-grid.css" rel="stylesheet">
-	<script src="${ctx }/resources/ng-grid/ng-grid.min.js"></script>
-	<link href="${ctx }/resources/ng-grid/ng-grid.min.css" rel="stylesheet">
-	<script src="${ctx }/resources/ng-grid/ng-grid-csv-export.js"></script>	
+	<script src="${ctx }/shenhai/resources/ui-bootstrap-tpls/ui-bootstrap-tpls.js"></script>
+	<%-- <script src="${ctx }/shenhai/resources/ng-grid/ng-grid.debug.js"></script>
+	<script src="${ctx }/shenhai/resources/ng-grid/ng-grid-layout.js"></script> --%>
+	<script src="${ctx }/shenhai/resources/ui-grid/ui-grid.js"></script>
+	<script src="${ctx }/shenhai/resources/ui-grid/csv.js"></script>
+	<script src="${ctx }/shenhai/resources/ui-grid/pdfmake.js"></script>
+	<script src="${ctx }/shenhai/resources/ui-grid/vfs_fonts.js"></script>
+	<link href="${ctx }/shenhai/resources/ui-grid/ui-grid.css" rel="stylesheet">
+	<script src="${ctx }/shenhai/resources/ng-grid/ng-grid.min.js"></script>
+	<link href="${ctx }/shenhai/resources/ng-grid/ng-grid.min.css" rel="stylesheet">
+	<script src="${ctx }/shenhai/resources/ng-grid/ng-grid-csv-export.js"></script>	
 	
-	<link rel="stylesheet" href="${ctx }/resources/angular-select-tree/angular-multi-select-tree-0.1.0.css" />
-	<script type="text/javascript" src="${ctx }/resources/angular-select-tree/angular-multi-select-tree-0.1.0.js"></script>
-	<script type="text/javascript" src="${ctx }/resources/angular-select-tree/angular-multi-select-tree-0.1.0.tpl.js"></script>
+	<link rel="stylesheet" href="${ctx }/shenhai/resources/angular-select-tree/angular-multi-select-tree-0.1.0.css" />
+	<script type="text/javascript" src="${ctx }/shenhai/resources/angular-select-tree/angular-multi-select-tree-0.1.0.js"></script>
+	<script type="text/javascript" src="${ctx }/shenhai/resources/angular-select-tree/angular-multi-select-tree-0.1.0.tpl.js"></script>
 		
 	<!-- 时间插件 -->
 	
-	<link rel="stylesheet" href="${ctx }/resources/mbdatepicker/styles/mbdatepicker.css"/>
-    <script src="${ctx }/resources/mbdatepicker/mbdatepicker.js"></script>	
+	<link rel="stylesheet" href="${ctx }/shenhai/resources/mbdatepicker/styles/mbdatepicker.css"/>
+    <script src="${ctx }/shenhai/resources/mbdatepicker/mbdatepicker.js"></script>	
     
 	<!-- CUSTOM SCRIPT -->
-	<script src="${ctx}/resources/cloud/js/script.js"></script>
+	<script src="${ctx }/shenhai/resources/cloud/js/script.js"></script>
 	
 	
 	<script>
@@ -181,7 +181,7 @@
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<li class="dropdown user" id="header-user">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<img alt="" src="resources/cloud/img/avatars/avatar3.jpg" />
+							<img alt="" src="shenhai/resources/cloud/img/avatars/avatar3.jpg" />
 							<span class="username">${user.realName }</span>
 							<i class="fa fa-angle-down"></i>
 						</a>

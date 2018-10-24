@@ -268,9 +268,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </div>
 </script>
 		<script src="${ctx }/shenhai/js/domain/domainInfo.js"></script>
-		<link rel="stylesheet" href="${ctx }/resources/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
-		<script type="text/javascript" src="${ctx }/resources/zTree/js/jquery.ztree.core-3.5.js"></script>
-		<script type="text/javascript" src="${ctx }/resources/zTree/js/jquery.ztree.excheck-3.5.js"></script>
+		<link rel="stylesheet" href="${ctx }/shenhai/resources/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+		<script type="text/javascript" src="${ctx }/shenhai/resources/zTree/js/jquery.ztree.core-3.5.js"></script>
+		<script type="text/javascript" src="${ctx }/shenhai/resources/zTree/js/jquery.ztree.excheck-3.5.js"></script>
 		
 </body>
 </html>

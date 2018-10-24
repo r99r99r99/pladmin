@@ -44,12 +44,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</style>
 </head>
 <body ng-app="myApp" ng-controller="customersCtrl" >
-	<script src="${ctx}/resources/common/js/common.js" type="text/javascript"></script>
-	<script src="${ctx }/resources/My97DatePicker/WdatePicker.js"></script>
+	<script src="${ctx }/shenhai/resources/common/js/common.js" type="text/javascript"></script>
+	<script src="${ctx }/shenhai/resources/My97DatePicker/WdatePicker.js"></script>
 
 	<%@ include file="../common/header.jsp" %>
-	<script src="${ctx }/resources/angular-file-upload-master/dist/angular-file-upload.js"></script>
-	<script src="${ctx }/resources/ajaxFileUpload/ajaxfileupload.js"></script>
+	<script src="${ctx }/shenhai/resources/angular-file-upload-master/dist/angular-file-upload.js"></script>
+	<script src="${ctx }/shenhai/resources/ajaxFileUpload/ajaxfileupload.js"></script>
 	<!-- PAGE -->
 	<section id="page">
 	<%@ include file="../common/left.jsp" %>

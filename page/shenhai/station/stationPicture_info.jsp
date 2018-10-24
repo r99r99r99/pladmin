@@ -16,18 +16,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 </head>
 <body ng-app="myApp" ng-controller="customersCtrl" >
-	<script src="${ctx}/resources/common/js/common.js" type="text/javascript"></script>
-	<script src="${ctx }/resources/My97DatePicker/WdatePicker.js"></script>
+	<script src="${ctx }/shenhai/resources/common/js/common.js" type="text/javascript"></script>
+	<script src="${ctx }/shenhai/resources/My97DatePicker/WdatePicker.js"></script>
 
 	<%@ include file="../common/header.jsp" %>
-		<script type="text/javascript" src="${ctx }/resources/ueditor/ueditor.config.js"></script>
+		<script type="text/javascript" src="${ctx }/shenhai/resources/ueditor/ueditor.config.js"></script>
 		<!-- <script type="text/javascript" src="http://ueditor.baidu.com/ueditor/ueditor.config.js"></script> -->
-		<script type="text/javascript" src="${ctx }/resources/ueditor/ueditor.all.js"></script>
-  		<script type="text/javascript" src="${ctx }/resources/ueditor/angular-ueditor.js"></script>
+		<script type="text/javascript" src="${ctx }/shenhai/resources/ueditor/ueditor.all.js"></script>
+  		<script type="text/javascript" src="${ctx }/shenhai/resources/ueditor/angular-ueditor.js"></script>
 	
-  		<script type="text/javascript" src="${ctx }/resources/bootstrap-fileinput-master/js/fileinput.min.js"></script>
-  		<link rel="stylesheet" type="text/css" href="${ctx }/resources/bootstrap-fileinput-master/css/fileinput.min.css" />
-  		<script type="text/javascript" src="${ctx }/resources/bootstrap-fileinput-master/js/locales/zh.js"></script>
+  		<script type="text/javascript" src="${ctx }/shenhai/resources/bootstrap-fileinput-master/js/fileinput.min.js"></script>
+  		<link rel="stylesheet" type="text/css" href="${ctx }/shenhai/resources/bootstrap-fileinput-master/css/fileinput.min.css" />
+  		<script type="text/javascript" src="${ctx }/shenhai/resources/bootstrap-fileinput-master/js/locales/zh.js"></script>
 	<!-- PAGE -->
 	<section id="page">
 	<%@ include file="../common/left.jsp" %>

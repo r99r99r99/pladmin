@@ -16,13 +16,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 </head>
 <body ng-app="myApp" ng-controller="customersCtrl" >
-	<script src="${ctx}/resources/common/js/common.js" type="text/javascript"></script>
-	<script src="${ctx }/resources/My97DatePicker/WdatePicker.js"></script>
+	<script src="${ctx }/shenhai/resources/common/js/common.js" type="text/javascript"></script>
+	<script src="${ctx }/shenhai/resources/My97DatePicker/WdatePicker.js"></script>
 
 	<%@ include file="../common/header.jsp" %>
-		<link rel="stylesheet" href="${ctx }/resources/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
-		<script type="text/javascript" src="${ctx }/resources/zTree/js/jquery.ztree.core-3.5.js"></script>
-		<script type="text/javascript" src="${ctx }/resources/zTree/js/jquery.ztree.excheck-3.5.js"></script>
+		<link rel="stylesheet" href="${ctx }/shenhai/resources/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+		<script type="text/javascript" src="${ctx }/shenhai/resources/zTree/js/jquery.ztree.core-3.5.js"></script>
+		<script type="text/javascript" src="${ctx }/shenhai/resources/zTree/js/jquery.ztree.excheck-3.5.js"></script>
 	<!-- PAGE -->
 	<section id="page">
 	<%@ include file="../common/left.jsp" %>
